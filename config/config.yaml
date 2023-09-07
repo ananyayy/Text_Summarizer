@@ -1,0 +1,8 @@
+artifacts_root: artifacts 
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/ananyayy/Text_Summarizer/raw/main/summarization_data.zip
+  local_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion 
+
