@@ -4,5 +4,10 @@ data_ingestion:
   root_dir: artifacts/data_ingestion
   source_URL: https://github.com/ananyayy/Text_Summarizer/raw/main/summarization_data.zip
   local_file: artifacts/data_ingestion/data.zip
-  unzip_dir: artifacts/data_ingestion 
+  unzip_dir: artifacts/data_ingestion
 
+data_validation:
+    root_dir: artifacts/data_validation
+    status_file: artifacts/data_validation/status.txt
+    all_required_files: ["train","test","validation"] 
+    
